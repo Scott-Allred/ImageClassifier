@@ -1,9 +1,7 @@
 ### ImageClassifier
 
-**Scott Allred**
-
 #### Executive Summary
-This model automates the manual inspection process in a semiconductor environment. Wafers undergo various conditions across hundreds of fabrication steps. This script focuses on detecting and flagging defects on the backside of wafers, which is less rigorously monitored compared to the frontside.
+This model automates a manual inspection process in a semiconductor environment. Wafers undergo various conditions across hundreds of fabrication steps. This script focuses on detecting and flagging defects on the backside of wafers, which is less rigorously monitored compared to the frontside.
 
 #### Rationale
 Manual image review is time-consuming and inefficient for engineering resources. This script monitors the destination folder of an image capture system and quickly identifies any backside defects. Thousands of images can be collected daily, and manual review often results in delays or missed inspections.
