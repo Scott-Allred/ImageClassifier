@@ -21,8 +21,8 @@ Various models were tested, including SVC, logistic regression, random forest, a
 All models achieved high accuracy, F1 scores, and recall (>98%). Although this suggests potential overfitting, the significant contrast between "PASS" and "FAIL" images supports the results. The average, normalized distributions of pixel values for each class were plotted. The pixel value bins represent the intensity distribution of the grayscale images, with 0.7 indicating higher intensity (lighter pixels) and 0.1 indicating darker pixels. The difference between "PASS" and "FAIL" histograms showed that "FAIL" images have more darker pixels.
 
 #### Next Steps
-The model has been applied to a directory containing 30,000 real images, detecting 82 defective images. Implementing this model will benefit the business by:
-1. Identifying defective wafers without manual review.
+The model has been applied to a directory containing 30,000 real images, detecting 82 defective images. This model will be implemented to scan images as they are collected, and will benefit the business in the following ways:
+1. Identifying wafer defects without manual review.
 2. Aiding in rapid root cause analysis and near real-time process monitoring.
 3. Saving hundreds of engineering hours annually.
 4. Increasing yields.
